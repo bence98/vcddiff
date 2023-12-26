@@ -1,0 +1,15 @@
+Source: vcddiff-veripool
+Section: universe/electronics
+Priority: optional
+Maintainer: Bence Csókás <bence98@sch.bme.hu>
+Vcs-Git: https://github.com/veripool/vcddiff.git
+Build-Depends: debhelper (>=11.1.6)
+Standards-Version: 4.1.0
+
+Package: vcddiff-veripool
+Version: 0~20220820
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Homepage: https://github.com/veripool/vcddiff
+Description: VCD differ
+ A diff tool for Verilog Value Change Dump (VCD) files

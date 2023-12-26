@@ -1,0 +1,5 @@
+vcddiff-veripool (0~20220820) stable; urgency=medium
+
+  * Initial release. (Git: 77b4aae)
+
+ -- Bence <bence98@sch.bme.hu>  Tue, 26 Dec 2023 12:46:20 +0100

@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+override_dh_auto_build:
+	make vcddiff
+
+override_dh_auto_install:
+	install -D vcddiff debian/vcddiff-veripool/usr/bin/vcddiff
+
+%:
+	dh $@
